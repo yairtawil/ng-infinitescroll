@@ -17,7 +17,7 @@ npm install --save ng-infinitescroll
 Add `InfiniteScrollModule` to your list of module imports:
 
 ```typescript
-import {InfiniteScrollModule} from 'ng-drag-drop-list';
+import {InfiniteScrollModule} from 'ng-infinitescroll';
 
 @NgModule({
   imports: [

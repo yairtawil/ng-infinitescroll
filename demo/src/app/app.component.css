@@ -1,0 +1,22 @@
+div.app{
+  padding: 100px;
+}
+
+div.app h1{
+  text-align: center;
+}
+div.scroll-container{
+  background: #ffffff;
+  overflow: auto;
+  max-height: 250px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px 4px #9e8585;
+}
+div.scroll-container div.item{
+  padding: 10px;
+  border: 1px solid lightgray;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}

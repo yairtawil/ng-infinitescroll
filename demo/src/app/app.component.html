@@ -1,0 +1,11 @@
+<div class="app">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="scroll-container" (ansynInfiniteScroll)="loadData()">
+    <template ngFor [ngForOf]="list" let-item>
+      <div class="item">{{item}}</div>
+    </template>
+  </div>
+
+</div>

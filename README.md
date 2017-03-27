@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/ng-infinitescroll.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ng-infinitescroll/)
 
-**[Demo](https://plnkr.co/edit/R8YIP6zG42ucBxqjTyKO?p=preview)**
+**[Demo](https://plnkr.co/edit/nkpG4z6d7qMy9xONuABJ?p=preview)**
 
 
 

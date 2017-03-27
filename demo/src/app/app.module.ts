@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {InfiniteScrollModule} from "ng-infinitescroll/infinite-scroll.module";
+import {InfiniteScrollModule} from "ng-infinitescroll";
 
 @NgModule({
   declarations: [

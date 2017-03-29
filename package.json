@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/core": "^2.4.0"

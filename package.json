@@ -1,6 +1,6 @@
 {
   "name": "ng-infinitescroll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ng infinitescroll angular 2",
   "main": "index.ts",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "rimraf dist && ngc",
-		"prepublish": "npm version patch && npm run build",
+    "prepublish": "npm version patch && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

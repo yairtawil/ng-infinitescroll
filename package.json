@@ -1,9 +1,9 @@
 {
   "name": "ng-infinitescroll",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ng infinitescroll angular 2",
   "main": "./dist/index.js",
-	"'typings": "./dist/index.tss",
+  "'typings": "./dist/index.tss",
   "repository": {
     "type": "git",
     "url": "https://github.com/yairtawil/ng-infinitescroll.git"
@@ -14,11 +14,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-		"ng-infinitescroll",
-		"infinitescroll",
-		"angular",
-		"ng"
-	],
+    "ng-infinitescroll",
+    "infinitescroll",
+    "angular",
+    "ng"
+  ],
   "author": "YairTawil",
   "license": "MIT",
   "peerDependencies": {

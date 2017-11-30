@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "rimraf dist && ngc",
+		"prepublish": "npm version patch && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

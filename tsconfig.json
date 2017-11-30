@@ -1,15 +1,22 @@
 {
   "compilerOptions": {
-		"outDir": "dist",
+		"target": "es5",
 		"module": "commonjs",
-    "target": "es5",
+		"moduleResolution": "node",
 		"experimentalDecorators": true,
 		"declaration": true,
-    "sourceMap": true,
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"removeComments": true,
+		"outDir": "dist",
 		"lib": ["dom", "es2015"]
 	},
-  "exclude": [
-    "node_modules",
-		"demo"
-  ]
+	"include": [
+		"src/index.ts"
+	],
+	"compileOnSave": false,
+	"buildOnSave": false,
+	"angularCompilerOptions": {
+		"skipTemplateCodegen": true
+	}
 }

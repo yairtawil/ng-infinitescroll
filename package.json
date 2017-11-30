@@ -3,7 +3,7 @@
   "version": "1.0.6",
   "description": "infinitescroll directive for angular",
   "main": "./dist/index.js",
-  "'typings": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/yairtawil/ng-infinitescroll.git"

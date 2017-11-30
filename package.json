@@ -1,9 +1,9 @@
 {
   "name": "ng-infinitescroll",
   "version": "1.0.5",
-  "description": "ng infinitescroll angular 2",
+  "description": "infinitescroll directive for angular",
   "main": "./dist/index.js",
-  "'typings": "./dist/index.tss",
+  "'typings": "./dist/index.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/yairtawil/ng-infinitescroll.git"

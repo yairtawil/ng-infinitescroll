@@ -1,6 +1,6 @@
 {
   "name": "ng-infinitescroll",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "infinitescroll directive for angular",
   "main": "./dist/index.js",
   "'typings": "./dist/index.ts",

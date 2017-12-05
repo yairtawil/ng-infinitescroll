@@ -1,0 +1,11 @@
+div.header {
+  font-size: larger;
+  height: 52px;
+  background: #c5d5da;
+  width: 100%;
+  box-shadow: 0 0 2px 2px black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

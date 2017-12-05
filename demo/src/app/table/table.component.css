@@ -1,0 +1,20 @@
+div.scroll-container {
+  background: #ffffff;
+  overflow: auto;
+  max-height: 250px;
+  width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 0 2px 2px #c5d5da;
+}
+
+div.scroll-container div.item {
+  padding: 15px;
+  border: 1px solid #c5d5da;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+div.scroll-container div.item:hover {
+  background: #c5d5da;
+}

@@ -4,10 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { InfiniteScrollModule } from 'ng-infinitescroll';
+import { HeaderComponent } from './header/header.component';
+import { TableComponent } from './table/table.component';
+import { DataService } from './data.service';
+import { LoaderComponent } from './loader/loader.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    TableComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
@@ -15,7 +22,7 @@ import { InfiniteScrollModule } from 'ng-infinitescroll';
     HttpModule,
     InfiniteScrollModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

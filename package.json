@@ -1,6 +1,6 @@
 {
   "name": "ng-infinitescroll",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "infinitescroll directive for angular",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -12,7 +12,7 @@
     "build": "rimraf dist && ngc",
     "build:docs": "rimraf docs && npm run build --prefix demo && copyfiles demo/dist/**/* docs --up 2",
     "prepublish": "npm version patch && npm run build",
-		"preversion": "git push --tags",
+    "preversion": "git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

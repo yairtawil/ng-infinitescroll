@@ -51,10 +51,8 @@ export class AppComponent {
 use the directive in your html templates:
 
 ```html
-  <div class="scroll-container" (ansynInfiniteScroll)="loadData()">
-    <template ngFor [ngForOf]="list" let-item>
-      <div class="item">{{item}}</div>
-    </template>
+  <div class="scroll-container" (infiniteScroll)="loadData()">
+      <div *ngFor="let item of list" class="item">{{item}}</div>
   </div>
 
 

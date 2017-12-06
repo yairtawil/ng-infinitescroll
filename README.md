@@ -62,7 +62,7 @@ use the directive in your html templates:
 ## Outputs
 
 ```typescript
-     (ansynInfiniteScroll)="loadData()"
+     (infiniteScroll)="loadData()"
 ```
 `loadData()` method will be called when scroll reaches the bottom.
 

@@ -51,10 +51,8 @@ export class AppComponent {
 use the directive in your html templates:
 
 ```html
-  <div class="scroll-container" (ansynInfiniteScroll)="loadData()">
-    <template ngFor [ngForOf]="list" let-item>
-      <div class="item">{{item}}</div>
-    </template>
+  <div class="scroll-container" (infiniteScroll)="loadData()">
+      <div *ngFor="let item of list" class="item">{{item}}</div>
   </div>
 
 
@@ -64,7 +62,7 @@ use the directive in your html templates:
 ## Outputs
 
 ```typescript
-     (ansynInfiniteScroll)="loadData()"
+     (infiniteScroll)="loadData()"
 ```
 `loadData()` method will be called when scroll reaches the bottom.
 

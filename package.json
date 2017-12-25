@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "rimraf dist && ngc",
-    "build:gh-pages": "npm run build --prefix demo && copyfiles demo/dist/**/* . --up 2",
+    "build:gh-pages": "npm run build --prefix demo && copyfiles demo/dist/**/* . --up 2 && node scripts/gh-pages.js",
 		"prepublishOnly": "npm version patch && npm run build",
     "preversion": "git push --tags",
     "test": "echo \"Error: no test specified\""
